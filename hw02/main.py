@@ -34,10 +34,10 @@ def draw_star(s_x, s_y, radius):
 
 #backgroud 
 turtle.pu()
-draw_square(-320, -240, 660, 440)
-ss_x = -320
-ss_y = -240 + 440
-ss_s = 660 / 30
+draw_square(-300, -200, 600, 400)
+ss_x = -300
+ss_y = -200 + 400
+ss_s = 600 / 30
 s_x, s_y = ss_x + ss_s * 5, ss_y - ss_s * 5
 turtle.setpos(s_x, s_y)
 #big star 
