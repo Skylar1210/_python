@@ -14,16 +14,16 @@ def  draw_square(b_x, b_y, x, y):
     turtle.fd(y)
     turtle.end_fill()
  
-def draw_star(s_x, s_y, radius):
+def draw_star(s_x, s_y, r):
     turtle.setpos(s_x, s_y)
     pt1 = turtle.pos()
-    turtle.circle(-radius, 72)
+    turtle.circle(-r, 72)
     pt2 = turtle.pos()
-    turtle.circle(-radius, 72)
+    turtle.circle(-r, 72)
     pt3 = turtle.pos()
-    turtle.circle(-radius, 72)
+    turtle.circle(-r, 72)
     pt4 = turtle.pos()
-    turtle.circle(-radius, 72)
+    turtle.circle(-r, 72)
     turtle.color('yellow')
     turtle.begin_fill()
     turtle.goto(pt3)
